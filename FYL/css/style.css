@@ -1,0 +1,170 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(/FYL/FYL/fonts/desctop.png);
+}
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: #fff 1px solid;
+}
+
+
+.logo-text{
+  font-family: 'Lekton', sans-serif;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.sign-up{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 40px 30px 20px 20px;
+}
+
+h1{
+  font-family: "Kunstler Script";
+  color: #fff;
+  font-weight: 400px;
+  font-size: 128px;
+  line-height: 18px;
+
+  text-align: center;
+}
+
+.info-text{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.info-number{
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300px;
+  font-size: 32px;
+
+  color: #C31432;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-holder{
+  margin-top: 80px;
+  margin-left: 70px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  border: #fff 1px solid;
+  padding: 18px;
+  margin-right: 90px;
+  height: 300px;
+}
+
+.name-age{
+  margin-top: 16px;
+
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.geo{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-around;
+}
+
+.auth{
+
+  margin-top: 80px;
+  margin-bottom: 200px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.auth-login{
+  width: 200px;
+  padding: 2% 0;
+
+  font-size: 20px;
+  font-weight: 300px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+  margin-right: 30px;
+
+  background-color: #000;
+  opacity: 60%;
+  border-radius: 30px;
+}
+
+.auth-signup{
+  width: 200px;
+  padding: 2% 0;
+
+  font-size: 20px;
+  font-weight: 300px;
+  font-family: 'Montserrat', sans-serif;
+
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: #000;
+  opacity: 60%;
+  border-radius: 30px;
+}
+
+footer{
+  background-color: #0d0f33;
+}
+
+.list{
+  list-style-type: none;
+}
+
+.content{
+  display: flex;
+  justify-content:space-evenly ;
+}
+
+h3{
+  font-size: 24px;
+  font-weight: 300px;
+  font-family: 'Montserrat', sans-serif;
+
+  color: #fff;
+}
+
+ul{
+  padding: 0;
+
+  font-size: 16px;
+  font-weight: 300px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 40px;
+
+  color: #fff;
+}
